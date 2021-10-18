@@ -1,23 +1,34 @@
-echopr("sentence")
-repeat (number)
-inputob "name" "size"
-selecfile (file)
-var cr (variable) (value)
-loopdo
-webcd url="https://url"
-mcreatfil ("filename")
-gitit "code"
-convdrive "filename" "filename extension" "other filename extension"
-shellbas insta -g "program"
-admac "program"
-hyopen "file"
-cal ("value + value")
-infonet
-idchec version "program"
-timeset "time"
-disk
-seldisk
-deldisk
-formatdisk
-credits
-netc "c++ code"
+++ NOTE : {} means optional
+echopr("sentence")   ++ returns (sentence)
+repeat (number)   ++ repeats the code inside a number of times
+istring {filename} (string)  ++ creates a text file and inputs (string) in it
+slc {(file)} {(folder)}  ++ selects a file/folder
+var cr (variable) (value)  ++ creates/edits a variable
+!variable  ++ method to call/mention a variables string
+loop    <back  ++ does the code forever
+webcd {/url="https://url.com"} {/diff="differentprotocol://thing.com"} ++ redirects to a website
+md /s {"filename"} ++ creates a file, without the /s, will create a folder
+gist "code" ++ runs code in a github vm
+cdskd "filename" "filename extension" "other filename extension"  ++ converts a files extension into another one
+sh /i -g "program" ++ installs a program
+admac "program"  ++ runs a program
+hyopen "file"  ++ opens a file
+cal ("value + value")  ++ calculates 2 values together
+infonet  ++ shows info
+ver !version "program"  ++ shows a version of a program
+datet "time"  ++ displays the time in a timezone
+dsk  ++ lists all options for the dsk command
+crdsk "disk"  ++ creates a disk
+asdsk "disk" "letter" ++ assigns a disk a drive letter
+sldsk "disk"  ++ selects a dedicated disk 
+dldsk "disk" ++ deletes a dedicated disk
+fmdsk "disk"  ++ formats a dedicated disk
+cdits  ++ shows all credits and info
+crun "code"  ++ runs a piece of code
+++ this is a comment
+@imp {/url https://url.com} {/server ftp://0.0.0.0} {/mainhost localhost:8080}  ++ imports a file
+dis "pix="insert pixel number here"  ++ enables a pixel on the virtual screen
+dis /s  ++ displays all enabled pixels on the virtual screen
+dis /d "pix="insert pixel number here"  ++ disables a pixel on the virtual screen
+dis /p  ++ prints the enabled portion of the virtual screen
+dis /e /v  ++ make videos/moving pictures (requires a external screen atleast 32px or a remote screen program)
