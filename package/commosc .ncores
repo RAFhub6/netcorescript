@@ -32,3 +32,5 @@ dis /s  ++ displays all enabled pixels on the virtual screen
 dis /d "pix="insert pixel number here"  ++ disables a pixel on the virtual screen
 dis /p  ++ prints the enabled portion of the virtual screen
 dis /e /v  ++ make videos/moving pictures (requires a external screen atleast 32px or a remote screen program)
+ref /d "file"  ++ reference/assign a role to a file as data
+prompt("your text")  ++ prompts a popup with data
