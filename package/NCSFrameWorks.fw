@@ -1,0 +1,7 @@
+?frameworks NCS 2.0 src "https://rafhub6.github.io/netcorescript/package/commosc.ncores"
+adfile -ext ncsapp?NCS-App
+adfile -ext ncsa?NCS-Asset
+adfile -ext ncores?NCS-Script
+ncsFw imp cmd package/commosc.ncores
+export -s ncs_req = aa.ncs p// 1
+end
