@@ -34,3 +34,7 @@ dis /p  ++ prints the enabled portion of the virtual screen
 dis /e /v  ++ make videos/moving pictures (requires a external screen atleast 32px or a remote screen program)
 ref /d "file"  ++ reference/assign a role to a file as data
 prompt("your text")  ++ prompts a popup with data
+token -c = @yourtoken  ++ creates a token
+host -s -fs "localhost:8080"  ++ hosts a server
+textys -r "000 plain request" "https://website.com"  ++ sends a request to a website
+create (name)      <create  ++ creates a function
