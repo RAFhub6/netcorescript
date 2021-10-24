@@ -38,3 +38,4 @@ token -c = @yourtoken  ++ creates a token
 host -s -fs "localhost:8080"  ++ hosts a server
 textys -r "000 plain request" "https://website.com"  ++ sends a request to a website
 create (name)      <create  ++ creates a function
+b(number)  ++ a atrribute that specifies a character in a byte 
