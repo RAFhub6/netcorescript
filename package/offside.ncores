@@ -1,0 +1,10 @@
+gist "attrib form (offside)"  ++ turns on offside mode
+gist "point l(line number) end attrib (offside)"  ++ turns off offside mode
+uni -c "unicode code"  ++ outputs a unicode character based on the unicode code
+switch -c "name of switch"  ++ creates a switch (looks like this -a)
+ext -e "plugin"  ++ uses a plugin such as microbit 
+OT> BYTE CREATE "amount of bytes" "characters in each bytes"  ++ creates a byte in a random-named file
+mpd "made up domain name"  ++ rps a domain name
+mpd -code "made up domain name"  ++ edits a domains webpage
+
+
